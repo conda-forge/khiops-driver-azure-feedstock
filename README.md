@@ -181,6 +181,3 @@ Feedstock Maintainers
 * [@sgouache](https://github.com/sgouache/)
 * [@tristandeb1](https://github.com/tristandeb1/)
 
-
-<!-- dummy commit to enable rerendering -->
-
