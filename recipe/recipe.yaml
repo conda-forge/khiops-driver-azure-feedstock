@@ -26,10 +26,10 @@ requirements:
 
 tests:
   - script:
-    - if: unix
-      then: test -f $PREFIX/lib/libkhiopsdriver_file_azure${SHLIB_EXT}
-      else:
-        - if not exist %PREFIX%\Library\bin\libkhiopsdriver_file_azure.dll exit 1
+      - if: unix
+        then: test -f $PREFIX/lib/libkhiopsdriver_file_azure${SHLIB_EXT}
+        else:
+          - if not exist %PREFIX%\Library\bin\libkhiopsdriver_file_azure.dll exit 1
 
 about:
   homepage: https://khiops.org
