@@ -19,10 +19,10 @@ requirements:
     - cmake
     - ninja
   host:
-    - spdlog 1.15.3
-    - azure-identity-cpp 1.13.0
-    - azure-storage-blobs-cpp 12.14.0
-    - azure-storage-files-shares-cpp 12.14.0
+    - spdlog ==1.15.3
+    - azure-identity-cpp ==1.13.0
+    - azure-storage-blobs-cpp ==12.14.0
+    - azure-storage-files-shares-cpp ==12.14.0
 
 tests:
   - script:
