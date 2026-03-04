@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/KhiopsML/khiopsdriver-azure/archive/refs/tags/${{ version }}.tar.gz
-  sha256: 4f05290a302a8a88064ede3cfb0e4728c4c8856c047ffde34d39217b1e9d8914
+  sha256: 71b24fb446768cd4905b1c11ce6f9923194b904ecc48285a556137039eae097a
 
 build:
   number: 0
