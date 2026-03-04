@@ -1,5 +1,5 @@
 context:
-  version: "0.0.4"
+  version: "0.0.5"
 
 package:
   name: khiops-driver-azure
@@ -10,7 +10,7 @@ source:
   sha256: 4f05290a302a8a88064ede3cfb0e4728c4c8856c047ffde34d39217b1e9d8914
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
