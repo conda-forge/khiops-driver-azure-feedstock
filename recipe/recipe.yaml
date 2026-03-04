@@ -10,7 +10,7 @@ source:
   sha256: 4f05290a302a8a88064ede3cfb0e4728c4c8856c047ffde34d39217b1e9d8914
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -20,9 +20,9 @@ requirements:
     - ninja
   host:
     - spdlog
-    - azure-identity-cpp
-    - azure-storage-blobs-cpp
-    - azure-storage-files-shares-cpp
+    - azure-identity-cpp ==1.13.0
+    - azure-storage-blobs-cpp ==12.14.0
+    - azure-storage-files-shares-cpp ==12.14.0
 
 tests:
   - script:
