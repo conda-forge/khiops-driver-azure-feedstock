@@ -6,8 +6,11 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://github.com/KhiopsML/khiopsdriver-azure/archive/refs/tags/${{ version }}.tar.gz
-  sha256: be782990a521ae0de2fc88f750b6e077db29e5ab91fd0fc8ebb2f65798f3a80a
+  - url: https://github.com/KhiopsML/khiopsdriver-azure/archive/refs/tags/${{ version }}.tar.gz
+    sha256: be782990a521ae0de2fc88f750b6e077db29e5ab91fd0fc8ebb2f65798f3a80a
+  - url: https://github.com/KhiopsML/khiopsdriver-shared/archive/101d6f898003cf794cd695f3fa0afc66f8d7afa5.tar.gz
+    sha256: cc2bc0c880b17a540488e9c74960f01b2d1b4a848b3a27cff9948f7e8c19e182
+    target_directory: shared
 
 build:
   number: 0
