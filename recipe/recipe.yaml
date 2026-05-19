@@ -1,5 +1,5 @@
 context:
-  version: "0.0.5"
+  version: "0.0.8"
 
 package:
   name: khiops-driver-azure
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/KhiopsML/khiopsdriver-azure/archive/refs/tags/${{ version }}.tar.gz
-  sha256: 71b24fb446768cd4905b1c11ce6f9923194b904ecc48285a556137039eae097a
+  sha256: be782990a521ae0de2fc88f750b6e077db29e5ab91fd0fc8ebb2f65798f3a80a
 
 build:
   number: 0
