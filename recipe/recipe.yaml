@@ -22,6 +22,7 @@ requirements:
     - cmake
     - ninja
   host:
+    - fmt
     - spdlog
     - azure-core-cpp
     - azure-identity-cpp
