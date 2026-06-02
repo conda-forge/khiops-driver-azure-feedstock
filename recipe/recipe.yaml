@@ -23,6 +23,7 @@ requirements:
     - ninja
   host:
     - spdlog
+    - azure-core-cpp
     - azure-identity-cpp
     - azure-storage-blobs-cpp
     - azure-storage-files-shares-cpp
