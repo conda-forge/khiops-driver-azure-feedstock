@@ -13,7 +13,7 @@ source:
     target_directory: shared
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -22,10 +22,12 @@ requirements:
     - cmake
     - ninja
   host:
+    - fmt
     - spdlog
-    - azure-identity-cpp ==1.13.0
-    - azure-storage-blobs-cpp ==12.14.0
-    - azure-storage-files-shares-cpp ==12.14.0
+    - azure-core-cpp
+    - azure-identity-cpp
+    - azure-storage-blobs-cpp
+    - azure-storage-files-shares-cpp
 
 tests:
   - script:
