@@ -1,5 +1,5 @@
 context:
-  version: "0.0.18"
+  version: "0.0.32"
 
 package:
   name: khiops-driver-azure
