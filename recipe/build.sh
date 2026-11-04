@@ -5,7 +5,7 @@ set -euo pipefail
 export CXXFLAGS="${CXXFLAGS} -D_LIBCPP_DISABLE_AVAILABILITY"
 
 # Configure project
-cmake ${CMAKE_ARGS} --fresh -G Ninja -D CMAKE_BUILD_TYPE=Release -B build/azure -S .
+cmake ${CMAKE_ARGS} --fresh -G Ninja -D CMAKE_BUILD_TYPE=Release -D KHIOPS_DRIVER azure -B build/azure -S .
 
 # Build
 cmake --build build/azure --target khiopsdriver_file_azure
