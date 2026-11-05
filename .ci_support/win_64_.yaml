@@ -1,3 +1,11 @@
+azure_core_cpp:
+- 1.16.2
+azure_identity_cpp:
+- 1.13.3
+azure_storage_blobs_cpp:
+- 12.17.0
+azure_storage_files_shares_cpp:
+- 12.17.0
 c_stdlib:
 - vs
 channel_sources:
@@ -6,6 +14,8 @@ channel_targets:
 - conda-forge main
 cxx_compiler:
 - vs2022
+fmt:
+- '12.1'
 spdlog:
 - '1.17'
 target_platform:
